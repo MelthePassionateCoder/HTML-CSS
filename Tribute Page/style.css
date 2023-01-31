@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+   background-color: black; 
+
+}
+header{
+    margin-top: 10px;
+    width:100%;
+    height: 90vh;
+    background-image: url(images/pacquiao.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    background-attachment: fixed;
+    background-size: 80em;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 15%;
+    
+}
+.logo img {
+    width:8%;
+    height:5%;
+    cursor: pointer;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.main{
+    position: relative;
+    margin-top:250px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 75px;
+}
+span{
+    color: #f9004d;
+}
+.about-content {
+    width:1130px;
+    max-width:95%;
+    padding:100px 0px;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.about-content img{
+    height: auto;
+    width: 20%;
+}
+.about-text h2{
+    color: white;
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-bottom:15px;
+}
+.about-text h3{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom:20px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height:28px;
+}
+.achievements{
+    background-image: url(images/achievements-pacquiao.jpg);
+    width:100%;
+    height:150vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 80em;
+}
+.achievements h2{
+    margin-top: 10px;
+    color: white;
+    font-size: 45px;
+    text-align:center;
+}
+.achievements p{
+    text-align: center;
+}
+.achievements a{
+    color: white;
+    text-decoration: none;
+}
+.achievements a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative; 
+    overflow: hidden;
+    text-align: center;
+}
+.card h4{
+    color: white;
+    font-size: 23px;
+    margin-bottom:10px;
+}
+.card p{
+    color: white;
+}
